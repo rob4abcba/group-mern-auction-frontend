@@ -1,0 +1,82 @@
+[
+  {
+    "_id": 1,
+    "title": "Louisville Slugger UPM 50 Black Flame Pitching Machine",
+    "category": "Sports",
+    "description": "Louisville Slugger UPM 50 Black Flame Pitching Machine",
+    "startbid": 199.99,
+    "photo": "louisville-slugger-upm-50-black-flame-pitching-machine.png"
+  },
+  {
+    "_id": 2,
+    "title": "Magic Bullet Mini-Blender",
+    "category": "Kitchen",
+    "description": "magic-bullet-mini-blender",
+    "startbid": 28.99,
+    "photo": "magic-bullet-mini-blender.png"
+  },
+  {
+    "_id": 3,
+    "title": "Peach Sapling",
+    "category": "Garden",
+    "description": "Peach sapling.",
+    "startbid": 1.99,
+    "photo": "peach-sapling.png"
+  },
+  {
+    "_id": 4,
+    "title": "Dog Walking Service",
+    "category": "Service",
+    "description": "Dog Walking Service.",
+    "startbid": 2.99,
+    "photo": "dog-walking-service.png"
+  },
+  {
+    "_id": 5,
+    "title": "Asian Pear Tree",
+    "category": "Garden",
+    "description": "Asian Pear Tree.",
+    "startbid": 2.99,
+    "photo": "asian-pear-tree.png"
+  },
+  {
+    "_id": 6,
+    "title": "Louisville Slugger BLUE Flame Pitching Machine",
+    "category": "Sports",
+    "description": "Louisville Slugger BLUE Flame Pitching Machine",
+    "startbid": 179.99,
+    "photo": "louisville-slugger-upm-50-black-flame-pitching-machine.png"
+  },
+  {
+    "_id": 7,
+    "title": "SILVER Bullet Mini-Blender",
+    "category": "Kitchen",
+    "description": "magic-bullet-mini-blender",
+    "startbid": 18.99,
+    "photo": "magic-bullet-mini-blender.png"
+  },
+  {
+    "_id": 8,
+    "title": "FRUIT Sapling",
+    "category": "Garden",
+    "description": "FRUIT sapling.",
+    "startbid": 0.99,
+    "photo": "peach-sapling.png"
+  },
+  {
+    "_id": 9,
+    "title": "Dog GROOMING Service",
+    "category": "Service",
+    "description": "Dog GROOMING Service.",
+    "startbid": 4.99,
+    "photo": "dog-walking-service.png"
+  },
+  {
+    "_id": 10,
+    "title": "RANDOM Tree",
+    "category": "Garden",
+    "description": "RANDOM Tree.",
+    "startbid": 2.99,
+    "photo": "asian-pear-tree.png"
+  }
+]
