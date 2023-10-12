@@ -13,7 +13,9 @@ const SignUp = () => {
               id="name"
               className="form-control"
               placeholder=""
-              aria-describedby="helpId"
+              pattern="[A-Za-z]{3,}"
+              title="Please enter at least 3 alphabetical characters"
+              required
             />
           </div>
           <div className="mb-3">
@@ -34,12 +36,14 @@ const SignUp = () => {
               password
             </label>
             <input
-              type="text"
+              type="password"
               name="password"
               id="password"
-              className="form-control"
               placeholder=""
-              aria-describedby="helpId"
+              className="form-control"
+              pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*\W).{8,}$"
+              title="Password must be at least 8 characters long and include uppercase, lowercase, digits, and special characters."
+              required
             />
           </div>
           <button type="submit" className="btn btn-primary">

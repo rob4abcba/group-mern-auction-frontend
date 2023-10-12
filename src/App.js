@@ -10,6 +10,7 @@ import SearchResults from "./components/SearchResults";
 import SearchedAuctionItem from "./components/SearchedAuctionItem";
 import SignUp from "./components/SignUp";
 import Login from "./components/Login";
+import Timer from "./components/Timer";
 
 function App() {
   let [auctionItemsData, setAuctionItemsData] = useState([]);
@@ -33,6 +34,7 @@ function App() {
   return (
     <div className="container-fluid">
       <Header />
+      <Timer initialTime={3000} />
       <SearchFilter auctionItems={auctionItemsData} />
       <Routes>
         <Route
