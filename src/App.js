@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -21,22 +21,24 @@ function App() {
   useEffect(() => {
     console.log("in useEffect");
     const fetchData = async () => {
-      let resp = await fetch("/AuctionItems.json");
+      // let resp = await fetch("/AuctionItems.json");
+      let resp = await fetch("http://localhost:3002/");
       let data = await resp.json();
       // console.log(' date from json - ');
-      console.log(data);
+      console.log("useEffect fetched AuctionItems =", data);
       setAuctionItemsData(data);
       // console.log('data from state');
-      console.log(auctionItemsData);
+      console.log("useState stored auctionItemsData =", auctionItemsData);
       //write the data to the state so we can use it anywhere in the component
     };
     fetchData();
   }, []);
+  // }, [auctionItemsData]);
 
   return (
     <div className="container-fluid">
       <Header />
-      <Timer initialTime={3000} />
+      <Timer initialTime={2000} />
       <SearchFilter auctionItems={auctionItemsData} />
       <Routes>
         <Route
