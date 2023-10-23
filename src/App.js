@@ -9,6 +9,8 @@ import SearchFilter from "./components/SearchFilter";
 import SearchResults from "./components/SearchResults";
 import SearchedAuctionItem from "./components/SearchedAuctionItem";
 import SignUp from "./components/SignUp";
+// import AddItem from "./components/AddItem";
+
 import Login from "./components/Login";
 import Timer from "./components/Timer";
 
@@ -50,6 +52,7 @@ function App() {
           element={<SearchedAuctionItem AuctionItems={auctionItemsData} />}
         />
         <Route path="/signup" element={<SignUp />} />
+        {/* <Route path="/additem" element={<AddItem />} />      */}
         <Route path="/login" element={<Login />} />
       </Routes>
       <Footer />
