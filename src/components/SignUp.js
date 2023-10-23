@@ -64,7 +64,7 @@ const SignUp = () => {
             </div>
             <div className="mb-3">
               <label htmlFor="email" className="form-label">
-                email
+                Email
               </label>
               <input
                 type="email"
@@ -78,7 +78,7 @@ const SignUp = () => {
             </div>
             <div className="mb-3">
               <label htmlFor="password" className="form-label">
-                password
+                Password
               </label>
               <input
                 type="text"

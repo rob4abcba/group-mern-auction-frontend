@@ -58,7 +58,7 @@ const Login = () => {
             />
             <small id="helpId" className="text-muted">
               {" "}
-              your email address
+              Type your email address
             </small>
           </div>
 
@@ -76,7 +76,7 @@ const Login = () => {
               aria-describedby="helpId"
             />
             <small id="helpId" className="text-muted">
-              Your password
+              Type your password
             </small>
           </div>
 
